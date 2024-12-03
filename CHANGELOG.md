@@ -1,0 +1,9 @@
+# 1.0.0 (2024-12-03)
+
+
+### Bug Fixes
+
+* Correct author_name in cookiecutter.json... ([#15](https://github.com/UnoYakshi/modern-python-template/issues/15)) ([5061068](https://github.com/UnoYakshi/modern-python-template/commit/50610689faa55c8040151c464018079bae95a8b4)), closes [#7](https://github.com/UnoYakshi/modern-python-template/issues/7)
+* Correct branch name in .releaserc.yml... ([#13](https://github.com/UnoYakshi/modern-python-template/issues/13)) ([1c60e86](https://github.com/UnoYakshi/modern-python-template/commit/1c60e86ac7033b8fd90882af78f7cbd9869b526a)), closes [#6](https://github.com/UnoYakshi/modern-python-template/issues/6)
+* Correct project_name in cookiecutter.json... ([#14](https://github.com/UnoYakshi/modern-python-template/issues/14)) ([5cfdaa0](https://github.com/UnoYakshi/modern-python-template/commit/5cfdaa05febd6617f36ebe7f4ab136f0238de63d)), closes [#7](https://github.com/UnoYakshi/modern-python-template/issues/7)
+* Remove .git in repositoryUrl in .releaserc.yml... ([#16](https://github.com/UnoYakshi/modern-python-template/issues/16)) ([a69f992](https://github.com/UnoYakshi/modern-python-template/commit/a69f9923b6ff748e093b1a402fafcc6e222db9ef)), closes [#6](https://github.com/UnoYakshi/modern-python-template/issues/6)
