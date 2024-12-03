@@ -11,6 +11,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Add Permissions
+        run: chmod +x ./scripts/update_version.sh
+
       - name: Semantic Release
         uses: cycjimmy/semantic-release-action@v4
         id: semantic
