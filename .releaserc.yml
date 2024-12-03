@@ -2,17 +2,27 @@
   "tagFormat": "${version}",
   "repositoryUrl": "https://github.com/UnoYakshi/modern-python-template",
   "plugins": [
-	 "@semantic-release/commit-analyzer",
-	 "@semantic-release/release-notes-generator",
-	 "@semantic-release/changelog",
-	 [
-       "@semantic-release/git",
-       {
-         "assets": ["CHANGELOG.md"],
-         "message": "chore(release): ${nextRelease.version}\n\n${nextRelease.notes}"
-       }
-     ],
-	 "@semantic-release/github"
+    "@semantic-release/commit-analyzer",
+	"@semantic-release/release-notes-generator",
+
+    # Updates src/__init__.py::__version__...
+    [
+      "@semantic-release/exec",
+      {
+        "prepareCmd": "./update_version.sh ${nextRelease.version}"
+      }
+    ],
+
+    "@semantic-release/changelog",
+    [
+      "@semantic-release/git",
+      {
+        "assets": ["CHANGELOG.md"],
+        "message": "chore(release): ${nextRelease.version}\n\n${nextRelease.notes}"
+      }
+    ],
+
+    "@semantic-release/github"
   ],
   "branches": ["master", "next"]
 }
