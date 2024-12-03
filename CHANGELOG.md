@@ -1,3 +1,16 @@
+# [1.1.0](https://github.com/UnoYakshi/modern-python-template/compare/1.0.0...1.1.0) (2024-12-03)
+
+
+### Bug Fixes
+
+* Add execution permission update_version.sh in release.yml... ([#23](https://github.com/UnoYakshi/modern-python-template/issues/23)) ([28e59f0](https://github.com/UnoYakshi/modern-python-template/commit/28e59f0073cfbf79228300b73078af067c1f7757)), closes [#18](https://github.com/UnoYakshi/modern-python-template/issues/18)
+* Correct path to update.sh... ([#22](https://github.com/UnoYakshi/modern-python-template/issues/22)) ([7244566](https://github.com/UnoYakshi/modern-python-template/commit/7244566577669e24937f5a41db1fbe754182c37b)), closes [#18](https://github.com/UnoYakshi/modern-python-template/issues/18)
+
+
+### Features
+
+* Add Python file version bump via semantic-release and a bash script... ([#19](https://github.com/UnoYakshi/modern-python-template/issues/19)) ([2ce6075](https://github.com/UnoYakshi/modern-python-template/commit/2ce6075bf9593d14a8367f3bc6a9ac0784478810)), closes [#18](https://github.com/UnoYakshi/modern-python-template/issues/18)
+
 # 1.0.0 (2024-12-03)
 
 
