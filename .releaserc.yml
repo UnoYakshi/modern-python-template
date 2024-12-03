@@ -1,6 +1,6 @@
 {
   "tagFormat": "${version}",
-  "repositoryUrl": "https://github.com/UnoYakshi/modern-python-template.git",
+  "repositoryUrl": "https://github.com/UnoYakshi/modern-python-template",
   "plugins": [
 	 "@semantic-release/commit-analyzer",
 	 "@semantic-release/release-notes-generator",
