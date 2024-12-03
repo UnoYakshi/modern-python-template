@@ -2,7 +2,7 @@
     "project_name": "MPT Project",
     "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
     "project_short_description": "Python Boilerplate contains all the boilerplate you need to create a Python package.",
-    "author_name": "{{ cookiecutter.author_name }}",
+    "author_name": "Uno Yakshi",
     "version": "0.1.0",
     "license": [
         "MIT license",
