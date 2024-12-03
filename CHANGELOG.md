@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/UnoYakshi/modern-python-template/compare/1.1.0...1.1.1) (2024-12-03)
+
+
+### Bug Fixes
+
+* Correct and enhance update_version.sh... ([#24](https://github.com/UnoYakshi/modern-python-template/issues/24)) ([87ad54c](https://github.com/UnoYakshi/modern-python-template/commit/87ad54c58c58bdd3e1f31b224435882b5446741a)), closes [#18](https://github.com/UnoYakshi/modern-python-template/issues/18)
+
 # [1.1.0](https://github.com/UnoYakshi/modern-python-template/compare/1.0.0...1.1.0) (2024-12-03)
 
 
