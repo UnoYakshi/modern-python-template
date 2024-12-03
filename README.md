@@ -10,7 +10,7 @@ It features:
 - [ ] code quality tools via pre-commit: [Ruff](https://docs.astral.sh/ruff/), MyPy
 - [ ] development and production Docker Compose YAMLs and staged Dockerfile
 - [ ] convenient file structure (`src/`, `tests/`, `deploy/`, `scripts/`, `docs/`) with some pre-built files
-- [ ] set-up semantic-release for automatic `src/__init__.py::__version__` update and git tagging via GitHub Actions
+- [ ] set-up semantic-release for automatic versioning, and tag+release+changelog via GitHub CI
 - [ ] `pyproject.toml` with configured and commented scripts, pytest, coverage, black, ruff, etc.
 
 
