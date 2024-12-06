@@ -5,4 +5,4 @@ Provides the code version and is  automatically updated by the `python-semantic-
 WARNING: DO NOT EDIT IT MANUALLY!
 """
 
-__version__ = "0.1.0"
+__version__ = "1.1.2"
