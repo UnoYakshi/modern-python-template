@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/UnoYakshi/modern-python-template/compare/1.1.1...1.1.2) (2024-12-06)
+
+
+### Bug Fixes
+
+* Remove "assets" from extra_plugins in release.yml... ([#27](https://github.com/UnoYakshi/modern-python-template/issues/27)) ([7555338](https://github.com/UnoYakshi/modern-python-template/commit/755533885cf63a6759b5e3a29a77cc9263d4ebb6)), closes [#18](https://github.com/UnoYakshi/modern-python-template/issues/18)
+
 ## [1.1.1](https://github.com/UnoYakshi/modern-python-template/compare/1.1.0...1.1.1) (2024-12-03)
 
 
