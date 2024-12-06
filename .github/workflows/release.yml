@@ -18,7 +18,15 @@ jobs:
         uses: cycjimmy/semantic-release-action@v4
         id: semantic
         with:
+          tag_format: ${version}
+          branches: |
+            ["master"]
           extra_plugins: |
             @semantic-release/exec
+            @semantic-release/git
+            @semantic-release/github
+            {
+              "assets": ["src/__init__.py"]
+            }
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}

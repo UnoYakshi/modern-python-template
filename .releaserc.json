@@ -20,8 +20,15 @@
         "message": "chore(release): ${nextRelease.version}\n\n${nextRelease.notes}"
       }
     ],
-
-    "@semantic-release/github"
+    "@semantic-release/github",
+    [
+      "@semantic-release/git",
+      {
+        "assets": [
+          "src/__init__.py"
+        ]
+      }
+    ]
   ],
   "branches": ["master", "next"]
 }
