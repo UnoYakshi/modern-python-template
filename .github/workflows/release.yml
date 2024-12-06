@@ -25,8 +25,5 @@ jobs:
             @semantic-release/exec
             @semantic-release/git
             @semantic-release/github
-            {
-              "assets": ["src/__init__.py"]
-            }
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}

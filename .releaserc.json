@@ -24,9 +24,7 @@
     [
       "@semantic-release/git",
       {
-        "assets": [
-          "src/__init__.py"
-        ]
+        "assets": ["src/__init__.py"]
       }
     ]
   ],
