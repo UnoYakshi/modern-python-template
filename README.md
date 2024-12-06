@@ -25,6 +25,12 @@ There are two main reasons.
 - Most of the templates don't include newer Rust-made tools, Rye and Ruff, that I use extensively. 
   - Because of their high performance and convenience, I believe they should dominate sooner or later.
 
+### `semantic-release` vs. `python-semantic-release`
+I've spent way too much my own and others' time configuring local file version update (`src/__init__.py::__version__`).
+It'd be great to have the same ready-to-use configuration for `semantic-release` in whatever project/language/paradigm...
+But it just doesn't work out of the box w/o `package.json`.
+`.releaserc` falls short delivering and would also need an extra prerequisite step --- it's not MPT's purpose.
+I want it to run with a single click.
 
 ## Usage
 
